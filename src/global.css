@@ -1,0 +1,36 @@
+@import url('antd/dist/antd.css');
+#root,.app{
+    height: 100%;
+}
+
+.app{
+    display: flex;
+    background-color: #f8f9fa;
+}
+.m-slide{
+    width: 256px;
+    height: 100%;
+    
+}
+.m-content{
+    flex:1;
+    height: 100%;
+    overflow: auto;
+    
+}
+.ant-menu{
+    height: 100%;
+}
+.m-operate{
+    text-align: right;
+    padding-bottom: 10px;
+}
+.m-readonly-modal .ant-form-item{
+    pointer-events: none;
+}
+.m-readonly-modal .ant-modal-footer{
+    display: none;
+}
+.m-filter{
+    margin:10px 0;
+}

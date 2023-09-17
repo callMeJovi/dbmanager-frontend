@@ -1,0 +1,41 @@
+
+.m-overview p{
+    margin-bottom: 15px;
+}
+.m-overview .header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+.m-overview .icon{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    background: #bf6e6ead;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+.m-overview .content span{
+    display: block;
+}
+.m-overview .content span:nth-child(1){
+    color: #847a7a;
+    font-size: 16px;
+    
+}
+.m-overview .content span:nth-child(2){
+    
+    font-size: 25px;
+    font-weight: bold;
+}
+.m-overview .footer{
+    border-top: 1px solid #aaaaaa3d;
+    padding-top: 15px;
+}
+.m-overview .chart-card .ant-card-body{
+    padding:0;
+    height:350px
+}
