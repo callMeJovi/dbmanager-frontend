@@ -140,11 +140,11 @@ class ModalForm extends React.Component {
             rules={[{ required: true }]}
           >
             <Select>
-              <Select.Option value="1">当前窗口</Select.Option>
-              <Select.Option value="2">新窗口</Select.Option>
+              <Select.Option value="1">current tag</Select.Option>
+              <Select.Option value="2">a new tag</Select.Option>
             </Select>
           </Form.Item>
-          <Form.Item label="图标" name="icon" rules={[{ required: true }]}>
+          <Form.Item label="Symbol" name="icon" rules={[{ required: true }]}>
             <Dropdown
               trigger={["click"]}
               overlayStyle={{ background: "#fff", padding: 10 }}
@@ -195,7 +195,7 @@ class ModalForm extends React.Component {
             </Dropdown>
           </Form.Item>
 
-          <Form.Item label="权限" name="isOfAdmin" rules={[{ required: true }]}>
+          <Form.Item label="Access" name="isOfAdmin" rules={[{ required: true }]}>
             <Radio.Group>
               <Radio value="1">Only Admin</Radio>
               <Radio value="2">everyone</Radio>
